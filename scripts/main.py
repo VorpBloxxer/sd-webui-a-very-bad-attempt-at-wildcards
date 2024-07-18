@@ -64,12 +64,12 @@ class GuiScript(scripts.Script):
     def __init__(self) -> None:
         super().__init__()
     def title(self):
-        return "Null\'s Wildcards"
+        return "A very bad attempt at Wildcards"
     def show(self, is_img2img):
             return scripts.AlwaysVisible
 
     def ui(self, is_img2img):
-        with gr.Accordion('Null\'s Wildcards', open=False):
+        with gr.Accordion('A very bad attempt at Wildcards', open=False):
             with gr.Row():        
                 dropfile = gr.File(
                     label="Upload .zip File"
