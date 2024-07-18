@@ -1,0 +1,11 @@
+.idea
+.env
+*.pyc
+*.zip
+/Wildcards
+/Modplates
+/Templates
+README.md
+.vscode/settings.json
+scripts/tests.py
+scripts/yamlLoaderV2.py
